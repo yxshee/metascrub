@@ -1,0 +1,14 @@
+# Node modules (if ever used)
+node_modules/
+# OS files
+.DS_Store
+Thumbs.db
+# Logs
+*.log
+# ZIPs and output
+*.zip
+# IDE files
+.vscode/
+.idea/
+# Environment files
+.env
