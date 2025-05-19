@@ -6,10 +6,6 @@
 
 ---
 
-<p align="center">
-  <img src="https://user-images.githubusercontent.com/placeholder/metascrub-banner.png" alt="MetaScrub Banner" width="600"/>
-</p>
-
 ## ✨ What is MetaScrub?
 
 **MetaScrub** is a free, open-source web app that removes all metadata from your images — right in your browser!  
