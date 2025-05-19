@@ -1,0 +1,161 @@
+body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 20px;
+    background-color: #f4f7f6;
+    color: #333;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 20px 30px;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+header {
+    text-align: center;
+    margin-bottom: 30px;
+    border-bottom: 1px solid #eee;
+    padding-bottom: 20px;
+}
+
+header h1 {
+    color: #2c3e50;
+    margin: 0;
+}
+
+header p {
+    color: #7f8c8d;
+    font-size: 0.9em;
+}
+
+.upload-section input[type="file"] {
+    display: none; /* Hide the default input */
+}
+
+.upload-button {
+    display: inline-block;
+    padding: 12px 25px;
+    background-color: #3498db;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1em;
+    transition: background-color 0.3s ease;
+}
+
+.upload-button:hover {
+    background-color: #2980b9;
+}
+
+#file-info {
+    margin-top: 10px;
+    font-style: italic;
+    color: #555;
+}
+
+.status-message, .error-message {
+    padding: 10px;
+    margin: 15px 0;
+    border-radius: 4px;
+    text-align: center;
+}
+
+.status-message {
+    background-color: #eafaf1;
+    color: #27ae60;
+    border: 1px solid #abebc6;
+}
+
+.error-message {
+    background-color: #fdedec;
+    color: #c0392b;
+    border: 1px solid #f5b7b1;
+}
+
+
+.results-section {
+    margin-top: 30px;
+}
+
+.results-section h2 {
+    color: #34495e;
+    border-bottom: 1px solid #eee;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+}
+
+#cleanedImagesContainer {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+    gap: 15px;
+    margin-bottom: 20px;
+}
+
+.cleaned-image-item {
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 10px;
+    text-align: center;
+    background-color: #f9f9f9;
+}
+
+.cleaned-image-item img {
+    max-width: 100%;
+    height: auto;
+    max-height: 120px;
+    border-radius: 3px;
+    margin-bottom: 8px;
+}
+
+.cleaned-image-item p {
+    font-size: 0.85em;
+    margin-bottom: 8px;
+    word-break: break-all;
+}
+
+.download-link {
+    display: inline-block;
+    padding: 6px 12px;
+    background-color: #2ecc71;
+    color: white;
+    text-decoration: none;
+    border-radius: 4px;
+    font-size: 0.9em;
+    transition: background-color 0.3s ease;
+}
+
+.download-link:hover {
+    background-color: #27ae60;
+}
+
+#downloadAllButton {
+    display: block; /* Initially hidden by JS */
+    margin: 20px auto;
+    padding: 12px 25px;
+    background-color: #16a085;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1em;
+}
+
+#downloadAllButton:hover {
+    background-color: #117a65;
+}
+
+
+footer {
+    text-align: center;
+    margin-top: 40px;
+    padding-top: 20px;
+    border-top: 1px solid #eee;
+    font-size: 0.8em;
+    color: #7f8c8d;
+}

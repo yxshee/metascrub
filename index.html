@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MetaScrub - Image Metadata Remover</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>MetaScrub</h1>
+            <p>Remove all metadata from your images, right in your browser.</p>
+        </header>
+
+        <main>
+            <div class="upload-section">
+                <input type="file" id="imageUpload" accept="image/jpeg, image/png, image/webp, image/bmp" multiple>
+                <label for="imageUpload" class="upload-button">Choose Images</label>
+                <p id="file-info">No files selected.</p>
+            </div>
+
+            <div id="processing-status" class="status-message" style="display: none;">Processing...</div>
+            <div id="error-message" class="error-message" style="display: none;"></div>
+
+            <div class="results-section">
+                <h2>Cleaned Images:</h2>
+                <div id="cleanedImagesContainer">
+                    <!-- Cleaned images will be appended here -->
+                </div>
+                <button id="downloadAllButton" style="display: none;">Download All Cleaned Images (ZIP)</button>
+            </div>
+        </main>
+
+        <footer>
+            <p>All processing is done locally in your browser. Your images are never uploaded.</p>
+        </footer>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jszip/3.10.1/jszip.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/FileSaver.js/2.0.5/FileSaver.min.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
