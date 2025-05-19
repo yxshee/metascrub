@@ -1,10 +1,18 @@
+<div align="center">
+
 # 🧼 MetaScrub &mdash; Image Metadata Remover
 
 ![License](https://img.shields.io/badge/license-MIT-green.svg)
 ![Status](https://img.shields.io/badge/status-active-brightgreen)
 ![PRs Welcome](https://img.shields.io/badge/PRs-welcome-blue)
 
----
+
+
+<img src="https://github.com/user-attachments/assets/4093061e-72e5-4158-9b84-299802e5b3c3" align="center" width="69%" alt="image">
+
+
+
+
 
 ## ✨ What is MetaScrub?
 
@@ -57,14 +65,11 @@ No uploads, no tracking, just privacy.
 - [JSZip](https://stuk.github.io/jszip/) for ZIP downloads
 - [FileSaver.js](https://github.com/eligrey/FileSaver.js/) for saving files
 
----
-
-## 📝 License
-
-MIT License &copy; 2024 [Your Name]
 
 ---
 
 <p align="center">
   <b>Made with ❤️ for privacy lovers everywhere!</b>
 </p>
+
+</div>
