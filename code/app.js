@@ -390,7 +390,7 @@ document.addEventListener('DOMContentLoaded', () => {
         }
         try {
             const zipBlob = await zip.generateAsync({ type: 'blob', compression: "DEFLATE", compressionOptions: { level: 6 } });
-            saveAs(zipBlob, 'MetaPurged_Images.zip');
+            saveAs(zipBlob, 'MetaScrubed_Images.zip');
             processingIndicator.textContent = 'ZIP downloaded!';
             setTimeout(() => processingIndicator.style.display = 'none', 3000);
         } catch (error) {
