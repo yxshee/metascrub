@@ -28,14 +28,6 @@ No uploads, no tracking, just privacy.
 
 ---
 
-## 🖥️ Demo
-
-<p align="center">
-  <img src="https://user-images.githubusercontent.com/placeholder/metascrub-demo.gif" alt="MetaScrub Demo" width="500"/>
-</p>
-
----
-
 ## 🛠️ How to Use
 
 1. **Clone or Download** this repo:
@@ -52,14 +44,6 @@ No uploads, no tracking, just privacy.
 4. **Wait for processing** — cleaned images will appear below.
 
 5. **Download** each image or all at once as a ZIP.
-
----
-
-## 📸 Screenshots
-
-| Upload Images | Cleaned Results | Download All |
-|:-------------:|:--------------:|:------------:|
-| ![upload](https://user-images.githubusercontent.com/placeholder/upload.png) | ![results](https://user-images.githubusercontent.com/placeholder/results.png) | ![download](https://user-images.githubusercontent.com/placeholder/download.png) |
 
 ---
 
