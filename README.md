@@ -2,9 +2,10 @@
 
 > Instantly remove all metadata from images in your browser, ensuring privacy and safe sharing.
 
-<p align="center">
-  <img src="https://user-images.githubusercontent.com/placeholder/metascrub-banner.png" alt="MetaScrub Banner" width="600"/>
-</p>
+
+<img src="https://github.com/user-attachments/assets/4093061e-72e5-4158-9b84-299802e5b3c3" align="center" width="69%" alt="image">
+
+
 
 <p align="center">
   <img src="https://img.shields.io/badge/license-MIT-green.svg" alt="License"/>
@@ -46,12 +47,6 @@ No uploads, no tracking, just privacy.
 
 ## 🛠️ How to Use
 
-<div align="center">
-  <img src="https://user-images.githubusercontent.com/placeholder/upload.png" alt="Upload Screenshot" width="250"/>
-  <img src="https://user-images.githubusercontent.com/placeholder/results.png" alt="Results Screenshot" width="250"/>
-  <img src="https://user-images.githubusercontent.com/placeholder/download.png" alt="Download Screenshot" width="250"/>
-</div>
-
 1. **Clone or Download** this repo:
    ```bash
    git clone https://github.com/yourusername/metascrub.git
@@ -71,9 +66,6 @@ No uploads, no tracking, just privacy.
 
 ## 🤔 Why Remove Metadata?
 
-<div align="center">
-  <img src="https://user-images.githubusercontent.com/placeholder/privacy.png" alt="Privacy" width="120"/>
-</div>
 
 - Protect your **privacy** (remove GPS, camera info, etc.)
 - Share images safely on social media
@@ -99,7 +91,7 @@ No uploads, no tracking, just privacy.
 
 ## 📝 License
 
-MIT License &copy; 2024 [Your Name]
+Creative Commons License &copy; 2024 Yash Dogra
 
 ---
 
