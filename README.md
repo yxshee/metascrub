@@ -7,7 +7,7 @@
 
 
 <p align="center">
-<img src="https://github.com/user-attachments/assets/4093061e-72e5-4158-9b84-299802e5b3c3" align="center" width="69%" alt="image">  <br>
+<img src="https://github.com/user-attachments/assets/4890a13b-3d80-4080-b07c-f503e06def20" align="center" width="69%" alt="image">  <br>
   <img src="https://img.shields.io/badge/license-MIT-green.svg" alt="License"/>
   <img src="https://img.shields.io/badge/status-active-brightgreen" alt="Status"/>
   <img src="https://img.shields.io/badge/PRs-welcome-blue" alt="PRs Welcome"/>
